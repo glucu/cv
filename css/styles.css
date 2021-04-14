@@ -7,7 +7,7 @@ body {
 nav {
   position: absolute;
   top: 0;
-  width: 80%;
+  width: 100%;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav li a {
-  text-decoration-color: initial;
+  color: #0061a8;
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -41,7 +41,8 @@ h1 {
   display: inline;
   font-weight: normal;
   font-family: 'Pacifico', cursive;
-  font-size: 4.375em
+  font-size: 4.375em;;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -51,6 +52,7 @@ h2 {
   font-size: 2.250em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 350px;
   width: 250px
 }
 
@@ -66,18 +68,19 @@ h3 {
 h4 {
   display: block;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
   font-weight: bold;
+}
+
+p {
+  font-family: 'Merriweather', sans-serif;
+  line-height: 2;
 }
 
 hr {
   color: #1597bb;
   border: 0;
   border-bottom: 8px dotted;
-  width: 8%;
+  width: 15%;
 }
 
 /**********CLASS SELECTORS**********/
@@ -88,13 +91,15 @@ a:hover {
 .top-container {
   background-color: #dbf6e9;
   border-bottom: 5px solid #5eaaa8;
-  padding: 300px;
+  position: relative;
+  padding: 420px 0 0;
+
 }
 
 .left-brace {
   position: relative;
-  right: 100px;
-  top: 200px;
+  right: 80px;
+  bottom: 200px;
 }
 
 .right-brace {
@@ -107,14 +112,14 @@ a:hover {
 .top-cloud {
   position: absolute;
   left: 150px;
-  top: 80px;
+  top: 100px;
   width: 150px;
 }
 
 .bottom-cloud {
   position: absolute;
   right: 150px;
-  bottom: 150px;
+  bottom: 100px;
   width: 150px;
 }
 
@@ -122,6 +127,7 @@ a:hover {
 .middle-container {
   background-color: #333;
   border-bottom: 5px solid #5eaaa8;
+  position: relative;
   padding: 80px;
 }
 
@@ -147,9 +153,8 @@ a:hover {
 }
 
 .table-style {
-  line-height: 1.5;
   margin: 50px auto 0 auto;
-  width: 50%;
+  width: 80%;
 }
 
 .hobbie-row {
@@ -213,7 +218,7 @@ a:hover {
 
 .footer-link {
   text-decoration: none;
-  color: #1597bb;
+  color: #0061a8;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin: 10px 20px;
